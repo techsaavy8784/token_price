@@ -12,5 +12,8 @@
   "dependencies": {
     "@solana/web3.js": "^1.89.1",
     "axios": "^1.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.10"
   }
 }

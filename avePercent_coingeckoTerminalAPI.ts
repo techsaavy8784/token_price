@@ -4,23 +4,39 @@ import axios from "axios";
 async function fetchOHLCVData(
   network_id: string,
   poolAddress: string,
-  timeFrame: string
+  timeFrame: string,
+  limit: number
 ): Promise<any> {
   try {
     const response = await axios.get(
-      `https://api.geckoterminal.com/api/v2/networks/${network_id}/pools/${poolAddress}/ohlcv/${timeFrame}`
+      `https://api.geckoterminal.com/api/v2/networks/${network_id}/pools/${poolAddress}/ohlcv/${timeFrame}?limit=${limit}`
     );
-    const ohlcData = response.data.data.attributes.ohlcv_list;
-    if (ohlcData && Array.isArray(ohlcData) && ohlcData.length > 0) {
-      console.log("OHLCV Data:", ohlcData);
-      const closingPrices: number[] = ohlcData.map((data: any) => data[4]); // Extracting closing prices
-      const percentageIncreases: number[] =
-        calculatePercentageIncrease(closingPrices);
-      const averagePercentageIncrease: number =
-        calculateAveragePercentageIncrease(percentageIncreases);
-      console.log("Average Percentage Increase:", averagePercentageIncrease);
+    if (
+      response.data &&
+      response.data.data &&
+      response.data.data.attributes &&
+      response.data.data.attributes.ohlcv_list
+    ) {
+      const ohlcData = response.data.data.attributes.ohlcv_list;
+      if (Array.isArray(ohlcData) && ohlcData.length > 0) {
+        const closingPrices: number[] = ohlcData.map((data: any) => data[4]); // Extracting closing prices
+        const percentageIncreases: number[] =
+          calculatePercentageIncrease(closingPrices);
+        const averagePercentageIncrease: number =
+          calculateAveragePercentageIncrease(percentageIncreases);
+        console.log("Network:", network_id);
+        console.log("PoolAddress:", poolAddress);
+        console.log("timeFrame:", timeFrame);
+        console.log("ohlcData:", ohlcData);
+        console.log(
+          "Average Percentage Increase for one week:",
+          averagePercentageIncrease
+        );
+      } else {
+        console.error("Error: Invalid or empty OHLCV data in the response");
+      }
     } else {
-      console.error("Error: Invalid or empty OHLCV data in the response");
+      console.error("Error: Invalid response data format");
     }
   } catch (error) {
     console.error("Error fetching OHLCV data:", error);
@@ -38,7 +54,7 @@ function calculatePercentageIncrease(data: number[]): number[] {
   return percentageIncreases;
 }
 
-// Function to calculate average percentage increase using map and reduce
+// Function to calculate average percentage increase using reduce
 function calculateAveragePercentageIncrease(
   percentageIncreases: number[]
 ): number {
@@ -46,9 +62,4 @@ function calculateAveragePercentageIncrease(
   return sum / percentageIncreases.length;
 }
 
-// Example usage
-const network_id = "solana";
-const poolAddress = "5WGx6mE9Xww3ocYzSenGVQMJLCVVwK7ePnYV6cXcpJtK"; // Replace with the actual pool address
-const timeFrame = "day";
-
-fetchOHLCVData(network_id, poolAddress, timeFrame);
+export default fetchOHLCVData;
