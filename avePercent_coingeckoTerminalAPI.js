@@ -40,7 +40,7 @@ var axios_1 = require("axios");
 // Function to fetch OHLCV data based on a pool address
 function fetchOHLCVData(network_id, poolAddress, timeFrame) {
     return __awaiter(this, void 0, void 0, function () {
-        var response, error_1;
+        var response, ohlcData, closingPrices, percentageIncreases, averagePercentageIncrease, error_1;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
@@ -48,11 +48,22 @@ function fetchOHLCVData(network_id, poolAddress, timeFrame) {
                     return [4 /*yield*/, axios_1.default.get("https://api.geckoterminal.com/api/v2/networks/".concat(network_id, "/pools/").concat(poolAddress, "/ohlcv/").concat(timeFrame))];
                 case 1:
                     response = _a.sent();
-                    return [2 /*return*/, response.data.data.attributes.ohlcv_list];
+                    ohlcData = response.data.data.attributes.ohlcv_list;
+                    if (ohlcData && Array.isArray(ohlcData) && ohlcData.length > 0) {
+                        console.log("OHLCV Data:", ohlcData);
+                        closingPrices = ohlcData.map(function (data) { return data[4]; });
+                        percentageIncreases = calculatePercentageIncrease(closingPrices);
+                        averagePercentageIncrease = calculateAveragePercentageIncrease(percentageIncreases);
+                        console.log("Average Percentage Increase:", averagePercentageIncrease);
+                    }
+                    else {
+                        console.error("Error: Invalid or empty OHLCV data in the response");
+                    }
+                    return [3 /*break*/, 3];
                 case 2:
                     error_1 = _a.sent();
                     console.error("Error fetching OHLCV data:", error_1);
-                    return [2 /*return*/, null];
+                    return [3 /*break*/, 3];
                 case 3: return [2 /*return*/];
             }
         });
@@ -76,19 +87,20 @@ function calculateAveragePercentageIncrease(percentageIncreases) {
 var network_id = "solana";
 var poolAddress = "5WGx6mE9Xww3ocYzSenGVQMJLCVVwK7ePnYV6cXcpJtK"; // Replace with the actual pool address
 var timeFrame = "day";
-fetchOHLCVData(network_id, poolAddress, timeFrame)
-    .then(function (ohlcData) {
-    if (ohlcData && Array.isArray(ohlcData) && ohlcData.length > 0) {
-        console.log("OHLCV Data:", ohlcData);
-        var closingPrices = ohlcData.map(function (data) { return data[4]; }); // Extracting closing prices
-        var percentageIncreases = calculatePercentageIncrease(closingPrices);
-        var averagePercentageIncrease = calculateAveragePercentageIncrease(percentageIncreases);
-        console.log("Average Percentage Increase:", averagePercentageIncrease);
-    }
-    else {
-        console.error("Error: Invalid or empty OHLCV data in the response");
-    }
-})
-    .catch(function (error) {
-    console.error("Error fetching OHLCV data:", error);
-});
+fetchOHLCVData(network_id, poolAddress, timeFrame);
+// fetchOHLCVData(network_id, poolAddress, timeFrame)
+//   .then((ohlcData) => {
+//     if (ohlcData && Array.isArray(ohlcData) && ohlcData.length > 0) {
+//       console.log("OHLCV Data:", ohlcData);
+//       const closingPrices = ohlcData.map((data: any) => data[4]); // Extracting closing prices
+//       const percentageIncreases = calculatePercentageIncrease(closingPrices);
+//       const averagePercentageIncrease =
+//         calculateAveragePercentageIncrease(percentageIncreases);
+//       console.log("Average Percentage Increase:", averagePercentageIncrease);
+//     } else {
+//       console.error("Error: Invalid or empty OHLCV data in the response");
+//     }
+//   })
+//   .catch((error) => {
+//     console.error("Error fetching OHLCV data:", error);
+//   });
