@@ -1,0 +1,1030 @@
+[
+  {
+    "network_id": "solana",
+    "poolAddress": "EP2ib6dYdEeqD8MfE2ezHCxX3kP3K2eLKkirfPm5eyMx",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.281850568780696,
+        "highPrice": 0.2860135807414256,
+        "lowPrice": 0.2469204428928374,
+        "closePrice": 0.2695472523477467,
+        "volume": 5425542.673392442
+      },
+      {
+        "openPrice": 0.313786772738036,
+        "highPrice": 0.345355634508235,
+        "lowPrice": 0.275549063212157,
+        "closePrice": 0.281850568780696,
+        "volume": 9992963.42938951
+      },
+      {
+        "openPrice": 0.32992084019324,
+        "highPrice": 0.333187578956056,
+        "lowPrice": 0.290365593238503,
+        "closePrice": 0.313786772738036,
+        "volume": 8989958.60043724
+      },
+      {
+        "openPrice": 0.342372982079382,
+        "highPrice": 0.373299648951076,
+        "lowPrice": 0.310829426850179,
+        "closePrice": 0.32992084019324,
+        "volume": 6254304.94963598
+      },
+      {
+        "openPrice": 0.348510449667534,
+        "highPrice": 0.366354952615068,
+        "lowPrice": 0.300732566828493,
+        "closePrice": 0.342372982079382,
+        "volume": 7826636.9654495
+      },
+      {
+        "openPrice": 0.382440845964227,
+        "highPrice": 0.38773244453541,
+        "lowPrice": 0.338650218208579,
+        "closePrice": 0.348510449667534,
+        "volume": 8943698.35290859
+      },
+      {
+        "openPrice": 0.349725085936656,
+        "highPrice": 0.410408916286999,
+        "lowPrice": 0.326228635112633,
+        "closePrice": 0.382440845964227,
+        "volume": 10214898.7347615
+      }
+    ],
+    "averagePercentageIncrease": 6.056634614083605
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "6qgyDW4fHvpTAmfNZvPAuETEbVwRKFVAuuHfNzvEmPkY",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 101.23209640587,
+        "highPrice": 101.53898921484348,
+        "lowPrice": 95.8337431112218,
+        "closePrice": 101.29546127781849,
+        "volume": 681656.9480304716
+      },
+      {
+        "openPrice": 101.427164850324,
+        "highPrice": 106.009164163709,
+        "lowPrice": 101.129712705839,
+        "closePrice": 101.23209640587,
+        "volume": 1387081.44705138
+      },
+      {
+        "openPrice": 96.133749058932,
+        "highPrice": 101.560138917642,
+        "lowPrice": 95.4693909298785,
+        "closePrice": 101.427164850324,
+        "volume": 1078687.64247776
+      },
+      {
+        "openPrice": 94.0637530387324,
+        "highPrice": 99.055054356759,
+        "lowPrice": 93.6253493168852,
+        "closePrice": 96.133749058932,
+        "volume": 1996256.49216423
+      },
+      {
+        "openPrice": 92.1584193789766,
+        "highPrice": 94.0637530387324,
+        "lowPrice": 90.911055586437,
+        "closePrice": 94.0637530387324,
+        "volume": 1597801.10551043
+      },
+      {
+        "openPrice": 86.9711342622182,
+        "highPrice": 93.4747762799578,
+        "lowPrice": 86.1964376519353,
+        "closePrice": 92.1584193789766,
+        "volume": 1698848.90435348
+      },
+      {
+        "openPrice": 89.111139177424,
+        "highPrice": 89.3458389947579,
+        "lowPrice": 85.2827248171875,
+        "closePrice": 86.9711342622182,
+        "volume": 2987232.07650987
+      }
+    ],
+    "averagePercentageIncrease": -2.4827128641687493
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "5tekMFqXyxoGCSZ6PT7Mb4cxuAqkPHYnTMRvcwM8YShu",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.282359735287205,
+        "highPrice": 0.2837580252520102,
+        "lowPrice": 0.24835161219146473,
+        "closePrice": 0.267419256611216,
+        "volume": 166732.54514445137
+      },
+      {
+        "openPrice": 0.312257990702345,
+        "highPrice": 0.346349118203108,
+        "lowPrice": 0.280543394278701,
+        "closePrice": 0.282359735287205,
+        "volume": 118056.917431133
+      },
+      {
+        "openPrice": 0.331763176769199,
+        "highPrice": 0.330537229797838,
+        "lowPrice": 0.291591612577712,
+        "closePrice": 0.312257990702345,
+        "volume": 105108.844303553
+      },
+      {
+        "openPrice": 0.345253172368986,
+        "highPrice": 0.372159966941612,
+        "lowPrice": 0.311975923160747,
+        "closePrice": 0.331763176769199,
+        "volume": 167002.267672022
+      },
+      {
+        "openPrice": 0.346655442420579,
+        "highPrice": 0.365076894302798,
+        "lowPrice": 0.301138557147171,
+        "closePrice": 0.345253172368986,
+        "volume": 119133.908034331
+      },
+      {
+        "openPrice": 0.385768587683731,
+        "highPrice": 0.388174937996773,
+        "lowPrice": 0.342915833869618,
+        "closePrice": 0.346655442420579,
+        "volume": 180077.860171836
+      },
+      {
+        "openPrice": 0.349503576132297,
+        "highPrice": 0.407952914547174,
+        "lowPrice": 0.326412804648302,
+        "closePrice": 0.385768587683731,
+        "volume": 319114.420843817
+      }
+    ],
+    "averagePercentageIncrease": 6.362905385199828
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "3gpyRVcdbH6Jy1AR5Xz5hypNGyGWECLXM5eaA79z4GdQ",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.0000112646629898989,
+        "highPrice": 0.00001129272631526591,
+        "lowPrice": 0.000010538760817810035,
+        "closePrice": 0.00001091517932297556,
+        "volume": 48177.42884777197
+      },
+      {
+        "openPrice": 0.000011967314221837,
+        "highPrice": 0.0000122026640184512,
+        "lowPrice": 0.0000111596196883912,
+        "closePrice": 0.0000112646629898989,
+        "volume": 113308.568339957
+      },
+      {
+        "openPrice": 0.0000116219110272806,
+        "highPrice": 0.000012107277153686,
+        "lowPrice": 0.0000113644792957229,
+        "closePrice": 0.000011967314221837,
+        "volume": 109830.305019511
+      },
+      {
+        "openPrice": 0.0000116115687924235,
+        "highPrice": 0.0000125776532557024,
+        "lowPrice": 0.0000113927415501933,
+        "closePrice": 0.0000116219110272806,
+        "volume": 131985.832565558
+      },
+      {
+        "openPrice": 0.0000117957243701237,
+        "highPrice": 0.0000120183417154251,
+        "lowPrice": 0.0000112737094585872,
+        "closePrice": 0.0000116115687924235,
+        "volume": 123377.963969359
+      },
+      {
+        "openPrice": 0.0000113044389774119,
+        "highPrice": 0.000012435190590649,
+        "lowPrice": 0.0000110260650230372,
+        "closePrice": 0.0000117957243701237,
+        "volume": 161735.977642809
+      },
+      {
+        "openPrice": 0.0000111076523199189,
+        "highPrice": 0.0000117035387546118,
+        "lowPrice": 0.0000103680435311206,
+        "closePrice": 0.0000113044389774119,
+        "volume": 149897.748059241
+      }
+    ],
+    "averagePercentageIncrease": 0.6475471944982796
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "G8pkeYvjs2dN594m8CMCNKPHo6SYNRFKHN9MXxUZcisd",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.282584261080459,
+        "highPrice": 0.2837752421302998,
+        "lowPrice": 0.25072140685408745,
+        "closePrice": 0.2705824467089155,
+        "volume": 3598.8752872318487
+      },
+      {
+        "openPrice": 0.313549127479801,
+        "highPrice": 0.344313537220185,
+        "lowPrice": 0.276681043954319,
+        "closePrice": 0.282584261080459,
+        "volume": 13746.4303500674
+      },
+      {
+        "openPrice": 0.330741342476266,
+        "highPrice": 0.330370363146829,
+        "lowPrice": 0.292449344539493,
+        "closePrice": 0.313549127479801,
+        "volume": 12654.1556774201
+      },
+      {
+        "openPrice": 0.341745570925047,
+        "highPrice": 0.371692841377887,
+        "lowPrice": 0.313573807308504,
+        "closePrice": 0.330741342476266,
+        "volume": 11274.4842970719
+      },
+      {
+        "openPrice": 0.349674675967514,
+        "highPrice": 0.364739875408794,
+        "lowPrice": 0.301323745242043,
+        "closePrice": 0.341745570925047,
+        "volume": 16273.2999512961
+      },
+      {
+        "openPrice": 0.38346034197005,
+        "highPrice": 0.387007989343358,
+        "lowPrice": 0.339558257537007,
+        "closePrice": 0.349674675967514,
+        "volume": 24156.0798252841
+      },
+      {
+        "openPrice": 0.34991094779521,
+        "highPrice": 0.40758523453651,
+        "lowPrice": 0.328084156566352,
+        "closePrice": 0.38346034197005,
+        "volume": 21424.7488087521
+      }
+    ],
+    "averagePercentageIncrease": 6.0309569340461335
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "2ewHgnjEw1qYV1hsXQSL6te4Lp3rkzHjn1srMFp9eD5M",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 3.41005799075109e-7,
+        "highPrice": 3.4185608042878866e-7,
+        "lowPrice": 2.7098934470813947e-7,
+        "closePrice": 2.989092995263116e-7,
+        "volume": 3379.544635791938
+      },
+      {
+        "openPrice": 2.82547561703875e-7,
+        "highPrice": 3.66737461611631e-7,
+        "lowPrice": 2.78538495649225e-7,
+        "closePrice": 3.41005799075109e-7,
+        "volume": 5401.3018635901
+      },
+      {
+        "openPrice": 2.49022090032961e-7,
+        "highPrice": 2.88248948551726e-7,
+        "lowPrice": 2.47157481631764e-7,
+        "closePrice": 2.82547561703875e-7,
+        "volume": 2912.22975182006
+      },
+      {
+        "openPrice": 2.63863716439504e-7,
+        "highPrice": 2.86902895658904e-7,
+        "lowPrice": 2.49022090032961e-7,
+        "closePrice": 2.49022090032961e-7,
+        "volume": 4194.55945869637
+      },
+      {
+        "openPrice": 2.49806196788525e-7,
+        "highPrice": 2.65494297103534e-7,
+        "lowPrice": 2.45541292512602e-7,
+        "closePrice": 2.63863716439504e-7,
+        "volume": 3586.02550486196
+      },
+      {
+        "openPrice": 2.27574376688516e-7,
+        "highPrice": 2.78016551623393e-7,
+        "lowPrice": 2.15404452873976e-7,
+        "closePrice": 2.49806196788525e-7,
+        "volume": 3969.11992780888
+      },
+      {
+        "openPrice": 2.25101571116149e-7,
+        "highPrice": 2.28233490439062e-7,
+        "lowPrice": 2.06204828478864e-7,
+        "closePrice": 2.27574376688516e-7,
+        "volume": 2966.50223738081
+      }
+    ],
+    "averagePercentageIncrease": -3.8653625287035474
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "F5gnXQoUm1JAGw7tPnv1wJ8AwirstFp7WiT4BoQWzbWd",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.000079448405208295,
+        "highPrice": 0.00009611773688378259,
+        "lowPrice": 0.00006905104264322577,
+        "closePrice": 0.00008454037506796387,
+        "volume": 3359.8327305878747
+      },
+      {
+        "openPrice": 0.00011334867580995417,
+        "highPrice": 0.00014072126379192256,
+        "lowPrice": 0.000079448405208295,
+        "closePrice": 0.000079448405208295,
+        "volume": 7023.314953363945
+      },
+      {
+        "openPrice": 0.0001518182375437668,
+        "highPrice": 0.00018427022626078536,
+        "lowPrice": 0.00010541369928049443,
+        "closePrice": 0.00011334867580995417,
+        "volume": 5461.771679018951
+      },
+      {
+        "openPrice": 0.00010301473320739485,
+        "highPrice": 0.00016682218656442725,
+        "lowPrice": 0.00010191848159112387,
+        "closePrice": 0.0001518182375437668,
+        "volume": 3004.1201553213714
+      },
+      {
+        "openPrice": 0.00010085059817887844,
+        "highPrice": 0.00014485707174501214,
+        "lowPrice": 0.00008598233348549701,
+        "closePrice": 0.00010301473320739485,
+        "volume": 3004.3764738494096
+      },
+      {
+        "openPrice": 0.00010085059817887844,
+        "highPrice": 0.00010085059817887844,
+        "lowPrice": 0.00010085059817887844,
+        "closePrice": 0.00010085059817887844,
+        "volume": 2.0033141469002027
+      }
+    ],
+    "averagePercentageIncrease": 7.26774919933649
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "2jQF1XBVpNZAnvfrPzgBQrnRnMRAWXgMyPJNpFCddFVG",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.0237816267313279,
+        "highPrice": 0.027836779007247254,
+        "lowPrice": 0.017446577348700615,
+        "closePrice": 0.02782911760996997,
+        "volume": 1260.7422704468017
+      },
+      {
+        "openPrice": 0.0255836271187278,
+        "highPrice": 0.0283931879306552,
+        "lowPrice": 0.0233461400216887,
+        "closePrice": 0.0237816267313279,
+        "volume": 1619.07493753546
+      },
+      {
+        "openPrice": 0.0335636206324653,
+        "highPrice": 0.0361286950789989,
+        "lowPrice": 0.0246443212032454,
+        "closePrice": 0.0255836271187278,
+        "volume": 2414.97250281754
+      },
+      {
+        "openPrice": 0.0438059329344316,
+        "highPrice": 0.0439322529250725,
+        "lowPrice": 0.0324480447124885,
+        "closePrice": 0.0335636206324653,
+        "volume": 13203.5987084636
+      },
+      {
+        "openPrice": 0.037958069623106,
+        "highPrice": 0.0459219738672828,
+        "lowPrice": 0.031385330563306,
+        "closePrice": 0.0438059329344316,
+        "volume": 12225.852425732
+      },
+      {
+        "openPrice": 0.0412195391154824,
+        "highPrice": 0.0480030930955041,
+        "lowPrice": 0.0341125604765375,
+        "closePrice": 0.037958069623106,
+        "volume": 18824.9688070381
+      },
+      {
+        "openPrice": 0.0464161489460842,
+        "highPrice": 0.0464161489460842,
+        "lowPrice": 0.0374992956880277,
+        "closePrice": 0.0412195391154824,
+        "volume": 22281.0926665639
+      }
+    ],
+    "averagePercentageIncrease": 8.330653776175609
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "EWhAgyGRZE7eU5WyF9d1qfwMB7ghR88ZjEy9f7BXesB",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.003911637176305127,
+        "highPrice": 0.006921499414016158,
+        "lowPrice": 0.003030905026392743,
+        "closePrice": 0.006303522356989467,
+        "volume": 925.4280640800781
+      },
+      {
+        "openPrice": 0.0044611941278713575,
+        "highPrice": 0.0046031860989154,
+        "lowPrice": 0.003911637176305127,
+        "closePrice": 0.003911637176305127,
+        "volume": 22.301859507611372
+      }
+    ],
+    "averagePercentageIncrease": -37.94521610654989
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "2hkQ9Mj3Jo7pzKx86ihcNzd7QDtR3QcP92QiRkBYpX6F",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.010264202778369508,
+        "highPrice": 0.012732376667328177,
+        "lowPrice": 0.009851933533414136,
+        "closePrice": 0.011555625923804394,
+        "volume": 1314.9242652214975
+      },
+      {
+        "openPrice": 0.006013651693515591,
+        "highPrice": 0.012668958488324748,
+        "lowPrice": 0.005678872800291781,
+        "closePrice": 0.010264202778369508,
+        "volume": 4259.245530588637
+      },
+      {
+        "openPrice": 0.005879497064977386,
+        "highPrice": 0.0070036198995728225,
+        "lowPrice": 0.004296084753247964,
+        "closePrice": 0.006013651693515591,
+        "volume": 2132.730144870608
+      },
+      {
+        "openPrice": 0.00408090582952559,
+        "highPrice": 0.007568071083989916,
+        "lowPrice": 0.0034459288119539173,
+        "closePrice": 0.005879497064977386,
+        "volume": 2901.416933228179
+      },
+      {
+        "openPrice": 0.004033683522891776,
+        "highPrice": 0.004371390487147429,
+        "lowPrice": 0.003750234520707883,
+        "closePrice": 0.00408090582952559,
+        "volume": 820.5679413132625
+      },
+      {
+        "openPrice": 0.005095342312734782,
+        "highPrice": 0.005281664509790787,
+        "lowPrice": 0.003743500710621726,
+        "closePrice": 0.004033683522891776,
+        "volume": 1212.7545140082736
+      },
+      {
+        "openPrice": 0.004064407470757679,
+        "highPrice": 0.005646497520026918,
+        "lowPrice": 0.0035078855538319027,
+        "closePrice": 0.005095342312734782,
+        "volume": 1877.8512081199988
+      }
+    ],
+    "averagePercentageIncrease": -10.04102926855264
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "27sTk5wQpqsAq8WHaz631CgJXtEKsiEwPtaYgL2LYipG",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.000011575531370690135,
+        "highPrice": 0.000011179830923307115,
+        "lowPrice": 0.000010608306547802985,
+        "closePrice": 0.000010769745273714847,
+        "volume": 257.023614079016
+      },
+      {
+        "openPrice": 0.000012011707524691645,
+        "highPrice": 0.000012175728562679265,
+        "lowPrice": 0.000011575531370690135,
+        "closePrice": 0.000011575531370690135,
+        "volume": 1094.61123942844
+      },
+      {
+        "openPrice": 0.000011542114484631225,
+        "highPrice": 0.000012069629736027028,
+        "lowPrice": 0.000011364479295722877,
+        "closePrice": 0.000012011707524691645,
+        "volume": 1327.1173501597254
+      },
+      {
+        "openPrice": 0.000011612956592303196,
+        "highPrice": 0.000012556685428140825,
+        "lowPrice": 0.0000114311356293718,
+        "closePrice": 0.000011542114484631225,
+        "volume": 2874.3016589131425
+      },
+      {
+        "openPrice": 0.00001181687903324475,
+        "highPrice": 0.000012018341715425147,
+        "lowPrice": 0.000011273709458587166,
+        "closePrice": 0.000011612956592303196,
+        "volume": 3082.3578326506668
+      },
+      {
+        "openPrice": 0.000011281910578590414,
+        "highPrice": 0.000012396347555234973,
+        "lowPrice": 0.000011036608110333987,
+        "closePrice": 0.00001181687903324475,
+        "volume": 4721.940267665185
+      },
+      {
+        "openPrice": 0.000011044607862395972,
+        "highPrice": 0.000011620370042527603,
+        "lowPrice": 0.000010367572099165629,
+        "closePrice": 0.000011281910578590414,
+        "volume": 6422.891312394182
+      }
+    ],
+    "averagePercentageIncrease": 0.8638624215727669
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "A6cVoMU1Z7oRi9R774QarVxHUmHPQkxQfYVFGNQuAx2b",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 102.36545817450381,
+        "highPrice": 102.96845673035993,
+        "lowPrice": 95.8337431112218,
+        "closePrice": 101.3155400474475,
+        "volume": 414.3885754306701
+      },
+      {
+        "openPrice": 101.44705368346688,
+        "highPrice": 106.21037497278348,
+        "lowPrice": 101.16240088463965,
+        "closePrice": 102.36545817450381,
+        "volume": 451.5340835828763
+      },
+      {
+        "openPrice": 96.0877765577205,
+        "highPrice": 101.54126844874351,
+        "lowPrice": 95.35356842880711,
+        "closePrice": 101.44705368346688,
+        "volume": 259.4645757040736
+      },
+      {
+        "openPrice": 94.22531544091429,
+        "highPrice": 99.13811821763845,
+        "lowPrice": 93.62900857711294,
+        "closePrice": 96.0877765577205,
+        "volume": 381.29509898143147
+      },
+      {
+        "openPrice": 92.27572604527268,
+        "highPrice": 94.31743498283278,
+        "lowPrice": 90.9495124872338,
+        "closePrice": 94.22531544091429,
+        "volume": 227.51770110934163
+      },
+      {
+        "openPrice": 87.03070480189277,
+        "highPrice": 93.44596660691863,
+        "lowPrice": 86.21489588404566,
+        "closePrice": 92.27572604527268,
+        "volume": 280.8010784698196
+      },
+      {
+        "openPrice": 89.03942244293478,
+        "highPrice": 89.3458389947579,
+        "lowPrice": 85.28272481718753,
+        "closePrice": 87.03070480189277,
+        "volume": 2541.171794430518
+      }
+    ],
+    "averagePercentageIncrease": -2.4725277136783013
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "5kPTW5yfXQToGF4uHw5KEqLLMFRjDLUgig1koLJu7ChQ",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 5.863806453027987,
+        "highPrice": 6.055204795429833,
+        "lowPrice": 4.975261356689547,
+        "closePrice": 5.357031778410713,
+        "volume": 135.42717741206988
+      },
+      {
+        "openPrice": 6.114968296500439,
+        "highPrice": 6.318916661262804,
+        "lowPrice": 5.716189145545124,
+        "closePrice": 5.863806453027987,
+        "volume": 1549.8460348111519
+      },
+      {
+        "openPrice": 5.590863061965619,
+        "highPrice": 6.436267453075008,
+        "lowPrice": 5.522603542436602,
+        "closePrice": 6.114968296500439,
+        "volume": 2049.2568588578993
+      },
+      {
+        "openPrice": 4.939516806721023,
+        "highPrice": 5.672735395468746,
+        "lowPrice": 4.831481994100068,
+        "closePrice": 5.590863061965619,
+        "volume": 3551.291034119003
+      },
+      {
+        "openPrice": 5.058813211976379,
+        "highPrice": 5.081809310145997,
+        "lowPrice": 4.372283371265885,
+        "closePrice": 4.939516806721023,
+        "volume": 1968.2496798982188
+      },
+      {
+        "openPrice": 5.010776267022337,
+        "highPrice": 5.285807755520221,
+        "lowPrice": 4.846703364184486,
+        "closePrice": 5.058813211976379,
+        "volume": 1836.4652328859108
+      },
+      {
+        "openPrice": 5.106978463562995,
+        "highPrice": 5.227163077573881,
+        "lowPrice": 4.950898804067503,
+        "closePrice": 5.010776267022337,
+        "volume": 4018.395132788981
+      }
+    ],
+    "averagePercentageIncrease": -0.8353715699547091
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "CyJG5PGm5hKrdnmszBUJQfjpSHVJqwUSYffXyTyTAyXv",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.01265952642664046,
+        "highPrice": 0.012259052663545248,
+        "lowPrice": 0.010164484719363768,
+        "closePrice": 0.010268042780301627,
+        "volume": 182.21925985637333
+      },
+      {
+        "openPrice": 0.010852766196218423,
+        "highPrice": 0.013415474903779076,
+        "lowPrice": 0.00986609459833274,
+        "closePrice": 0.01265952642664046,
+        "volume": 266.5186404142237
+      },
+      {
+        "openPrice": 0.011300352303285237,
+        "highPrice": 0.013029237296517317,
+        "lowPrice": 0.010512186076535234,
+        "closePrice": 0.010852766196218423,
+        "volume": 251.74221443944188
+      },
+      {
+        "openPrice": 0.010576757322422671,
+        "highPrice": 0.013662408762169193,
+        "lowPrice": 0.008721092377472827,
+        "closePrice": 0.011300352303285237,
+        "volume": 178.11106981919454
+      },
+      {
+        "openPrice": 0.012696321055451504,
+        "highPrice": 0.013218301414405435,
+        "lowPrice": 0.010092886252626346,
+        "closePrice": 0.010576757322422671,
+        "volume": 110.99758420707333
+      },
+      {
+        "openPrice": 0.018020145749805445,
+        "highPrice": 0.015108560732692617,
+        "lowPrice": 0.012696321055451504,
+        "closePrice": 0.012696321055451504,
+        "volume": 128.60531929372877
+      },
+      {
+        "openPrice": 0.016891208148721467,
+        "highPrice": 0.018020145749805445,
+        "lowPrice": 0.013590589327898538,
+        "closePrice": 0.018020145749805445,
+        "volume": 150.80114906284092
+      }
+    ],
+    "averagePercentageIncrease": 11.451888472405093
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "CN8M75cH57DuZNzW5wSUpTXtMrSfXBFScJoQxVCgAXes",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.2803506301114075,
+        "highPrice": 0.28331178185668426,
+        "lowPrice": 0.2487134033113774,
+        "closePrice": 0.26897323057878414,
+        "volume": 227.70522574940995
+      },
+      {
+        "openPrice": 0.3144925231184284,
+        "highPrice": 0.3528988682298004,
+        "lowPrice": 0.26842441826777713,
+        "closePrice": 0.2803506301114075,
+        "volume": 502.4820042343685
+      },
+      {
+        "openPrice": 0.3313823786309276,
+        "highPrice": 0.3331770437730844,
+        "lowPrice": 0.2925623674873824,
+        "closePrice": 0.3144925231184284,
+        "volume": 80.49793618815733
+      },
+      {
+        "openPrice": 0.34540555160369746,
+        "highPrice": 0.3712847453823418,
+        "lowPrice": 0.31214906556906175,
+        "closePrice": 0.3313823786309276,
+        "volume": 294.93170907048034
+      },
+      {
+        "openPrice": 0.350704260297111,
+        "highPrice": 0.36473961550717876,
+        "lowPrice": 0.3037041483811463,
+        "closePrice": 0.34540555160369746,
+        "volume": 89.80541917125205
+      },
+      {
+        "openPrice": 0.38351533131480253,
+        "highPrice": 0.3876719537921604,
+        "lowPrice": 0.3466854974010672,
+        "closePrice": 0.350704260297111,
+        "volume": 99.62791760416553
+      },
+      {
+        "openPrice": 0.3537093709968702,
+        "highPrice": 0.40742593995970466,
+        "lowPrice": 0.3270590379362027,
+        "closePrice": 0.38351533131480253,
+        "volume": 169.8072986547473
+      }
+    ],
+    "averagePercentageIncrease": 6.1500452685763305
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "E4uUmMsPHcFYBYwUcKWuAHYv8mgrJHhqmGqXYBje9pqE",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.06237219981421174,
+        "highPrice": 0.06260836529813493,
+        "lowPrice": 0.054635143770423306,
+        "closePrice": 0.05598215552656586,
+        "volume": 191.52991612818195
+      },
+      {
+        "openPrice": 0.06661867321535053,
+        "highPrice": 0.06890269095056777,
+        "lowPrice": 0.06174129564203346,
+        "closePrice": 0.06237219981421174,
+        "volume": 189.36913653687427
+      },
+      {
+        "openPrice": 0.0669991800674409,
+        "highPrice": 0.07032964045104743,
+        "lowPrice": 0.06240895478442737,
+        "closePrice": 0.06661867321535053,
+        "volume": 245.70920277957237
+      },
+      {
+        "openPrice": 0.06794822692189086,
+        "highPrice": 0.07340055206627821,
+        "lowPrice": 0.06699560909425596,
+        "closePrice": 0.0669991800674409,
+        "volume": 217.75497446909773
+      },
+      {
+        "openPrice": 0.06538196903331331,
+        "highPrice": 0.07080415068463881,
+        "lowPrice": 0.06429778584830148,
+        "closePrice": 0.06794822692189086,
+        "volume": 165.51509261512948
+      },
+      {
+        "openPrice": 0.06255138745162826,
+        "highPrice": 0.06705199317956019,
+        "lowPrice": 0.06208696776108554,
+        "closePrice": 0.06538196903331331,
+        "volume": 140.00114537496057
+      },
+      {
+        "openPrice": 0.07053438204509045,
+        "highPrice": 0.07262191243595367,
+        "lowPrice": 0.06255138745162826,
+        "closePrice": 0.06255138745162826,
+        "volume": 263.14168279589745
+      }
+    ],
+    "averagePercentageIncrease": 2.017383681378192
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "6ABFAzKYBcBV4vhoUoJubMvzf7xfpRoqndccEEAVm5vu",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 0.27488631234469535,
+        "highPrice": 0.27523211561771244,
+        "lowPrice": 0.26473776395646814,
+        "closePrice": 0.27227758156516046,
+        "volume": 108.63154992526823
+      }
+    ],
+    "averagePercentageIncrease": null
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "8cj7fosdKYvs2FjGqNmvjyQPhsukvr14TZ1SsCMFdbVv",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 3.407221308544748e-7,
+        "highPrice": 3.255335357275122e-7,
+        "lowPrice": 2.6996201615434843e-7,
+        "closePrice": 2.956802635282341e-7,
+        "volume": 96.56876791166177
+      },
+      {
+        "openPrice": 2.809139196213194e-7,
+        "highPrice": 3.6186824293483614e-7,
+        "lowPrice": 2.7887998030959843e-7,
+        "closePrice": 3.407221308544748e-7,
+        "volume": 116.55403459450824
+      },
+      {
+        "openPrice": 2.581166850560784e-7,
+        "highPrice": 2.8764057009079304e-7,
+        "lowPrice": 2.521112938623662e-7,
+        "closePrice": 2.809139196213194e-7,
+        "volume": 36.97458212054203
+      },
+      {
+        "openPrice": 2.638382753409006e-7,
+        "highPrice": 2.79947638318183e-7,
+        "lowPrice": 2.581166850560784e-7,
+        "closePrice": 2.581166850560784e-7,
+        "volume": 35.05602240241541
+      },
+      {
+        "openPrice": 2.6187613178506143e-7,
+        "highPrice": 2.638382753409006e-7,
+        "lowPrice": 2.613575107763162e-7,
+        "closePrice": 2.638382753409006e-7,
+        "volume": 11.81152384680809
+      }
+    ],
+    "averagePercentageIncrease": -2.0546948350619108
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "wm7eMS7SF7M2EZR1cpQWzNPPXmLoZhVEaVu3DfKBE4X",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 1.4444352483823655,
+        "highPrice": 1.4243239920086304,
+        "lowPrice": 1.3705436533533764,
+        "closePrice": 1.3807162925568284,
+        "volume": 10.007279285261335
+      },
+      {
+        "openPrice": 1.6600412826503252,
+        "highPrice": 1.6344534918594698,
+        "lowPrice": 1.3640945272402643,
+        "closePrice": 1.4444352483823655,
+        "volume": 87.19003113681947
+      },
+      {
+        "openPrice": 1.6371534615027057,
+        "highPrice": 1.7121962224178477,
+        "lowPrice": 1.5159140798449364,
+        "closePrice": 1.6600412826503252,
+        "volume": 69.94769089550138
+      },
+      {
+        "openPrice": 1.790428814755501,
+        "highPrice": 1.8007397582389186,
+        "lowPrice": 1.6367771169472771,
+        "closePrice": 1.6371534615027057,
+        "volume": 60.530130923349375
+      },
+      {
+        "openPrice": 1.6383967350748687,
+        "highPrice": 1.8116457238729953,
+        "lowPrice": 1.6383967350748687,
+        "closePrice": 1.790428814755501,
+        "volume": 14.187156763149467
+      }
+    ],
+    "averagePercentageIncrease": 6.881286249549399
+  },
+  {
+    "network_id": "solana",
+    "poolAddress": "B9ExPHhJKgRhyWvmykrugvQv6bbnKtRkua7T3EPbzccp",
+    "timeFrame": "day",
+    "ohlcvData": [
+      {
+        "openPrice": 2.5159224365280612e-8,
+        "highPrice": 2.419647490148283e-8,
+        "lowPrice": 2.0673985291417367e-8,
+        "closePrice": 2.0673985291417367e-8,
+        "volume": 19.037404365874387
+      },
+      {
+        "openPrice": 2.5577503040875828e-8,
+        "highPrice": 2.7061399320569123e-8,
+        "lowPrice": 2.4054148876263332e-8,
+        "closePrice": 2.5159224365280612e-8,
+        "volume": 18.692173457252657
+      },
+      {
+        "openPrice": 2.3590306872866972e-8,
+        "highPrice": 2.5577503040875828e-8,
+        "lowPrice": 2.3283747923305965e-8,
+        "closePrice": 2.5577503040875828e-8,
+        "volume": 38.337590167518414
+      },
+      {
+        "openPrice": 2.3963088224912694e-8,
+        "highPrice": 2.4967639114530147e-8,
+        "lowPrice": 2.2725412941901394e-8,
+        "closePrice": 2.3590306872866972e-8,
+        "volume": 27.231834998740858
+      },
+      {
+        "openPrice": 2.634366312575566e-8,
+        "highPrice": 2.491948129101366e-8,
+        "lowPrice": 2.0776633023950475e-8,
+        "closePrice": 2.3963088224912694e-8,
+        "volume": 26.961815549581377
+      },
+      {
+        "openPrice": 2.8744146794627505e-8,
+        "highPrice": 2.8993646574043368e-8,
+        "lowPrice": 2.620359588785042e-8,
+        "closePrice": 2.634366312575566e-8,
+        "volume": 29.26663780767537
+      },
+      {
+        "openPrice": 2.5354216545408114e-8,
+        "highPrice": 3.045624874279841e-8,
+        "lowPrice": 2.4451839436491756e-8,
+        "closePrice": 2.8744146794627505e-8,
+        "volume": 46.90156940405733
+      }
+    ],
+    "averagePercentageIncrease": 6.035843130516246
+  }
+]

@@ -1,37 +1,63 @@
 import axios from "axios";
 
+interface OHLCVDATA {
+  openPrice: number;
+  highPrice: number;
+  lowPrice: number;
+  closePrice: number;
+  volume: number;
+}
+
+interface OHLCVResult {
+  network_id: string;
+  poolAddress: string;
+  timeFrame: string;
+  ohlcvData: OHLCVDATA[];
+  averagePercentageIncrease: number;
+}
+
 // Function to fetch OHLCV data based on a pool address
 async function fetchOHLCVData(
   network_id: string,
   poolAddress: string,
   timeFrame: string,
   limit: number
-): Promise<any> {
+): Promise<OHLCVResult | undefined> {
   try {
-    const response = await axios.get(
+    const { data: resp } = await axios.get(
       `https://api.geckoterminal.com/api/v2/networks/${network_id}/pools/${poolAddress}/ohlcv/${timeFrame}?limit=${limit}`
     );
+
     if (
-      response.data &&
-      response.data.data &&
-      response.data.data.attributes &&
-      response.data.data.attributes.ohlcv_list
+      resp &&
+      resp.data &&
+      resp.data.attributes &&
+      resp.data.attributes.ohlcv_list
     ) {
-      const ohlcData = response.data.data.attributes.ohlcv_list;
+      const ohlcData = resp.data.attributes.ohlcv_list;
       if (Array.isArray(ohlcData) && ohlcData.length > 0) {
         const closingPrices: number[] = ohlcData.map((data: any) => data[4]); // Extracting closing prices
         const percentageIncreases: number[] =
           calculatePercentageIncrease(closingPrices);
         const averagePercentageIncrease: number =
           calculateAveragePercentageIncrease(percentageIncreases);
-        console.log("Network:", network_id);
-        console.log("PoolAddress:", poolAddress);
-        console.log("timeFrame:", timeFrame);
-        console.log("ohlcData:", ohlcData);
-        console.log(
-          "Average Percentage Increase for one week:",
-          averagePercentageIncrease
-        );
+        const ohlcvData = ohlcData.map((dataPoint: number[]) => {
+          return {
+            openPrice: dataPoint[1],
+            highPrice: dataPoint[2],
+            lowPrice: dataPoint[3],
+            closePrice: dataPoint[4],
+            volume: dataPoint[5],
+          };
+        });
+        const resultData = {
+          network_id,
+          poolAddress,
+          timeFrame,
+          ohlcvData,
+          averagePercentageIncrease,
+        };
+        return resultData;
       } else {
         console.error("Error: Invalid or empty OHLCV data in the response");
       }

@@ -1,4 +1,5 @@
 import axios from "axios";
+import * as fs from "fs";
 import fetchOHLCVData from "./avePercent_coingeckoTerminalAPI";
 
 async function fetchPools_GetAveragePercetageIncrease(
@@ -15,12 +16,22 @@ async function fetchPools_GetAveragePercetageIncrease(
 
     if (poolsData && Array.isArray(poolsData) && poolsData.length > 0) {
       // console.log("PoolsData:", poolsData);
-      poolsData.map((pool: any) => {
-        const inputString: string = pool.id;
-        const parts: string[] = inputString.split("_");
-        const poolAddress: string = parts[1];
-        return fetchOHLCVData(network_id, poolAddress, timeFrame, limit);
-      });
+      const printData: any[] = await Promise.all(
+        poolsData.map(async (pool: any) => {
+          const inputString: string = pool.id;
+          const parts: string[] = inputString.split("_");
+          const poolAddress: string = parts[1];
+          return await fetchOHLCVData(
+            network_id,
+            poolAddress,
+            timeFrame,
+            limit
+          );
+        })
+      );
+
+      const jsonData = JSON.stringify(printData, null, 2);
+      fs.writeFileSync("Result.txt", jsonData, "utf8");
     } else {
       console.error("Error: Invalid or empty poolsData in the response");
     }
